@@ -13,7 +13,8 @@
 		<h1 id="encabezado_inicio_texto">Proyectos</h1>
 	</header>
 	<main>
-		<p>Proyectos de Sistemas embebidos y rendimiento de sistemas</p>
+		<!--<p>Proyectos de Sistemas embebidos y rendimiento de sistemas</p>-->
+		<p>Proyectos index</p>
 		<div id="division_formulario">
 			<a id="banco" href="Banco\index.php">Banco Fortuna</a>
 			<a id="deporte" href="app-deporte\Training4you.php">Training4you</a>
