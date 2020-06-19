@@ -1,0 +1,124 @@
+body{
+	background-image: url("fondo22.png");
+}
+
+.footable{
+	background-color: rgba(89,148,56,0.5);
+	padding-top: 15px;
+}
+
+.renglon_historial {
+	background: rgba(179,179,255,1);
+}
+
+#tabla_historial{
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(5,118,213,0.7);
+	border-radius: 10px;
+}
+#tabla_depositar{
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(5,118,213,0.7);
+	border-radius: 10px;
+}
+
+.boton_formato{
+	margin-left:22%	;
+	font-size:1em;
+	font-weight:bold;
+	padding-right: 20%;
+	padding-left: 20%;
+	float: left;
+}
+
+#header_historial{
+	width: 100%;
+	background-color: rgba(197,225,254,1);
+	margin-bottom:20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+/*///////////////   FORMATO A LOS RADIOS*/
+
+
+input[type=radio] {
+	display: none;
+}
+
+.label_sexo {
+	color:rgb(255,255,255);
+	margin-bottom: 20px;
+	font-weight: bold;
+	padding: 2px 15px 5px 30px;
+	display: inline-block;
+	position: relative;
+	border-radius: 3px;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-transition: all 0.3s ease;
+}
+
+.label_sexo:before {
+	content:"";
+	width: 13px;
+	height:13px;
+	display: inline-block;
+	background: none;
+	padding-left: 2px;
+	border: 2px solid rgba(0,0,255,1);
+	border-radius: 50%;
+	position:absolute;
+	left: 1px;
+	top:3px;
+}
+
+
+/*////////////// ANIMACIONES */
+.label_sexo:hover {
+	background: rgba(100,100,255,0.5);
+}
+
+.filtros_class input[type="radio"]:checked + label{ /*En el input de tipo radio cuando este seleccionado vas a modificar valores del label*/
+	padding: 2px 15px;
+	background: rgba(0,0,255,1);
+	border-radius:2px;
+	color: rgba(255,255,255,1);
+}
+
+.filtros_class input[type="radio"]:checked + label:before {
+	display: none;
+}
+
+
+button{
+	margin-top:15px;
+	padding: 10px 40px 10px 40px;
+	margin-left:1%;
+	border-style: none;
+	border: 2px 2px 2px 2px;
+	border-radius: 10px solid rgba(0,0,190,1);
+	background: rgba(0,0,190,1);
+	font-family: Helvica, sans-serif;
+	color: rgba(255,255,255,1);
+	font-size:0.8em;
+	cursor: pointer;
+}
+
+
+#filtros{
+	background: rgba(204, 13, 13, 0.5);
+    border-radius: 20px;
+    padding: 3px;
+    width: 100%;
+    padding-left: 29%
+}
+
+
+#clase_footer{
+	background: rgba(255,255,255,0.6);
+	padding: 20px;
+	font-weight: bold;
+	border-bottom: 10px solid;
+}

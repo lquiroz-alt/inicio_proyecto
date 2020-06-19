@@ -1,0 +1,24 @@
+main{
+	width: 100%;
+	margin-left: 12%;
+	background: rgba(255,255,255,0.5);
+	padding: 25px;
+}
+
+#opciones_log{
+	background: rgba(25,255,25,0.5);
+	position: relative;
+    top: -83px;
+}
+
+.ocultos1, .ocultos{
+	display: none;
+}
+
+
+#div_ex{
+	width: 100%;
+    background: rgba(20,110,20);
+    padding: 59px;
+}
+

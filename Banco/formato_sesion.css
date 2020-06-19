@@ -1,0 +1,179 @@
+body{
+	font-family: tahoma, sans-serif;
+	background-image: url("fondo22.png");
+}
+header{
+	background: rgba(255,255,255,0.6);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+main {
+    padding-bottom: 56px;
+}
+
+#tabla_informacion{
+	width: 60%;
+	margin-left: 20%;
+	border-radius: 20px;
+	border-top: 3px solid rgba(0,0,0,1);
+	border-bottom: 3px solid rgba(0,0,0,1);
+	background-color: rgba(157,255,206,1);
+	padding: 20px 20px 20px 20px;
+}
+
+.renglon{
+	margin-left: 100px;
+	text-align: center;
+	border-top: 3px solid rgba(0,91,26,1);
+	background-color: rgba(255,255,255,1);
+}
+
+
+#menu ul{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 20px 20px 20px;
+	margin-left:15%;
+	background: rgba(0,0,66,1);
+	border-bottom: 5px solid rgba(0,91,0,1);
+	margin-bottom: 100px;
+}
+
+#menu2 ul{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 20px 20px 20px 20px;
+	margin-left:15%;
+	background: rgba(0,0,66,1);
+	border-bottom: 5px solid rgba(0,91,0,1);
+	margin-bottom: 100px;
+}
+
+
+li{
+	list-style-type: none;
+	float:left;
+	margin-left: 10%;
+}
+
+a{
+	text-decoration-style: none;
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-transition: all 1s ease;
+}
+
+a:hover{
+	background-color: rgba(185,255,185,1);
+	padding: 20px 20px 20px 20px;
+	color: rgba(0,0,0,1);
+	border-radius:5px;
+}
+
+
+#transferencias{
+	padding-bottom: 10px;
+	padding-bottom: 20px;
+    padding: 20px;
+    background: rgba(28, 43, 28, 0.8);
+}
+
+input[type="text"], input[type="number"]{	
+	font-family: arial, sans-serif;
+	font-size:0.8em;
+	padding: 10px 5px 10px 5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-bottom:2px solid rgba(122,188,188,1);
+	background-color:rgba(230,242,242,1);
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+	/*border-bottom:2px solid rgba(0,0,255,1);*/
+	border-radius:5px;
+	background-color: rgba(255,255,255,0.5);
+	border-style:ridge;
+	border: 2px solid rgba(0,0,255,1);
+}
+
+button{
+	margin-top:15px;
+	padding: 10px 40px 10px 40px;
+	margin-left:10%;
+	border-style: none;
+	border: 2px 2px 2px 2px;
+	border-radius: 10px solid rgba(0,0,190,1);
+	background: rgba(0,0,190,1);
+	font-family: Helvica, sans-serif;
+	color: rgba(255,255,255,1);
+	font-size:0.8em;
+	cursor: pointer;
+}
+
+/*///////////////   FORMATO A LOS RADIOS*/
+
+
+.trans_class input[type=radio] {
+	display: none;
+}
+
+.label_sexo {
+	color:rgb(255,255,255);
+	margin-bottom: 20px;
+	font-weight: bold;
+	padding: 2px 15px 5px 30px;
+	display: inline-block;
+	position: relative;
+	border-radius: 3px;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-transition: all 0.3s ease;
+}
+
+.label_sexo:before {
+	content:"";
+	width: 13px;
+	height:13px;
+	display: inline-block;
+	background: none;
+	padding-left: 2px;
+	border: 2px solid rgba(0,0,255,1);
+	border-radius: 50%;
+	position:absolute;
+	left: 1px;
+	top:3px;
+}
+
+
+/*////////////// ANIMACIONES */
+.label_sexo:hover {
+	background: rgba(100,100,255,0.5);
+}
+
+.trans_class input[type="radio"]:checked + label{ /*En el input de tipo radio cuando este seleccionado vas a modificar valores del label*/
+	padding: 2px 15px;
+	background: rgba(0,0,255,1);
+	border-radius:2px;
+	color: rgba(255,255,255,1);
+}
+
+.trans_class input[type="radio"]:checked + label:before {
+	display: none;
+}
+
+
+
+
+

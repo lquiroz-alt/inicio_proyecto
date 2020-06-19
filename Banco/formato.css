@@ -1,0 +1,161 @@
+/*//////////////////////////   FORMATO GENERAL    . clase  # id*/
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: rgba(255,255,255,1);
+	font-family: Helvica, sans-serif;
+	background-image: url("fondo22.png");
+}
+header {
+	margin-top:30px;
+	margin-bottom:30px;
+	background-color: rgba(163,209,209,1);
+}
+
+main {
+	background-color:rgba(0,179,0,0.7);
+	padding: 50px 10px 50px 10px;
+	margin-top:0px;
+	border-top:0px;
+}
+
+/*///////////////////////////////   ENCABEZADO  */
+
+#encabezado_inicio {
+	margin-top: 10px;
+	margin-left:2%;
+	margin-right: 2%;
+}
+
+#encabezado_inicio_texto {
+	margin-left: 70%;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+#informacion{
+	padding: 10px 10px 10px 30px;
+}
+
+
+/*///////////////////////////////   FORMULARIO  */
+#division_formulario {
+	margin-left: 1%;
+	padding-right: 20px;
+	float: left;
+}
+
+fieldset {
+	background-color: rgba(230,242,242,1);
+	border-radius:10px;
+	border-style:ridge;
+	border-bottom: 2px solid rgba(122,188,188,1);
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+}
+
+legend {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight:bold;
+	margin-left:1%;
+	font-size:2em;
+	padding-bottom:30px;
+}
+
+#fiel_user {
+	padding-top: 5px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+#div_user {
+	margin-left:1%;
+}
+
+label {
+	font-family: Arial, sans-serif;
+	color: rgba(0,0,0,1);
+	font-weight:bold;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-transition: all 0.3s ease;
+}
+
+.formulario input[type="textbox"], input[type="password"], input[type="email"], input[type="date"], input[type="number"]{	
+	font-family: arial, sans-serif;
+	font-size:0.8em;
+	padding: 10px 5px 10px 5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px;
+	border-bottom:2px solid rgba(122,188,188,1);
+	background-color:rgba(230,242,242,1);
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-transition: all 0.3s ease;
+}
+
+
+.formulario input[type="submit"] {
+	margin-top:15px;
+	padding: 10px 40px 10px 40px;
+	margin-left:10%;
+	border-style: none;
+	border: 2px 2px 2px 2px;
+	border-radius: 10px solid rgba(0,0,190,1);
+	background: rgba(0,0,190,1);
+	font-family: Helvica, sans-serif;
+	color: rgba(255,255,255,1);
+	font-size:0.8em;
+}
+
+#abrir_credito_div input[type=button]{
+	margin-top:15px;
+	padding: 10px 40px 10px 40px;
+	margin-left:10%;
+	border-style: none;
+	border: 2px 2px 2px 2px;
+	border-radius: 10px solid rgba(0,0,190,1);
+	background: rgba(0,0,190,1);
+	font-family: Helvica, sans-serif;
+	color: rgba(255,255,255,1);
+	font-size:0.8em;
+}
+
+/*/////////////////////////////////////////// ANIMACIÓN //////*/
+
+.formulario input[type="submit"]:hover {
+	background: rgba(0,0,255,1);
+}
+
+
+#abrir_credito_div input[type=button]:hover {
+	background: rgba(0,0,255,1);
+}
+
+.formulario input[type="textbox"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="number"]:focus {
+	/*border-bottom:2px solid rgba(0,0,255,1);*/
+	border-radius:5px;
+	background-color: rgba(255,255,255,0.5);
+	border-style:ridge;
+	border: 2px solid rgba(0,0,255,1);
+}
+
+
+#abrir_credito_div{
+	text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.6);
+}
+    

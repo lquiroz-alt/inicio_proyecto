@@ -1,0 +1,1 @@
+http://192.168.23.8/Banco/conexio_tienda.php?cuentau=4322974106322596&cuentat=1234567885318525&monto=300&sitio=TheBest&desc=videojuego
